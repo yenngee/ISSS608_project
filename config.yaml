@@ -1,0 +1,11 @@
+baseURL: http://examplesite.org/
+title: Home
+theme: bigspring-hugo-startup-theme
+paginate: '3'
+summaryLength: '15'
+disqusShortname: ''
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
