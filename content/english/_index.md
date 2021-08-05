@@ -2,25 +2,24 @@
 banner:
   button:
     enable: true
-    label: Contact Us
+    label: Explore Data Visualization
     link: contact
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
-    maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
-    laborum officiis necessitatibus
+  content: Piecing evidences from two parts of the [Vast Challenge 2021](https://vast-challenge.github.io/2021/)            to form a cohesive picture as to who in GASTech are the suspicious ones. 
   image: images/banner-art.svg
-  title: Let us solve your critical website <br> development challenges
+  title: Who are the suspicious employees in GASTech? <br> You be the judge!
+  
 call_to_action:
   button:
     enable: true
-    label: Contact Us
-    link: contact
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+    label: Blogpost - step by step process
+    link: blog
+  content: Here is our step by step process
   enable: true
   image: images/cta.svg
   title: Ready to get started?
+  
 feature:
-  enable: true
+  enable: false
   feature_item:
   - content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
     icon: fas fa-code
@@ -41,10 +40,12 @@ feature:
     icon: fas fa-cloud
     name: Cloud Support
   title: Something You Need To Know
+  
 screenshot:
-  enable: true
+  enable: false
   image: images/screenshot.svg
-  title: Experience the best <br> workflow with us
+  title: Explore Data <br> With Us
+  
 service:
   enable: true
   service_item:
@@ -52,50 +53,39 @@ service:
       enable: true
       label: Check it out
       link: '#'
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: Here is our project proposal
     images:
     - images/service-1.png
     - images/service-2.png
     - images/service-3.png
-    title: It is the most advanced digital marketing and it company.
+    title: Project Proposal
+    
   - button:
       enable: true
       label: Check it out
       link: '#'
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: Here is our shiny app.
     images:
     - images/service-1.png
-    title: It is a privately owned Information and cyber security company
+    - images/service-2.png
+    title: Interactive Data Viz App
+    
   - button:
       enable: true
       label: Check it out
       link: '#'
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: Here is out poster
     images:
     - images/service-2.png
-    title: It’s a team of experienced and skilled people with distributions
+    title: Poster 
+    
   - button:
       enable: true
       label: Check it out
       link: '#'
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: Here is our research paper 
     images:
     - images/service-3.png
-    title: A company standing different from others
+    title: Research Paper
+  
 ---
