@@ -1,7 +1,7 @@
 ---
 date: "2020-04-18T10:07:21+06:00"
 description: This is meta description
-draft: false
+draft: true
 image: images/blog/post-1.jpg
 title: Adversus is a web-based dialer and practical CRM solution
 type: featured

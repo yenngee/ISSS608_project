@@ -1,6 +1,6 @@
 ---
 description: This is meta description
 draft: false
-subtitle: ""
-title: Latest News
+subtitle: "Here are all the posts related to the project"
+title: Project
 ---

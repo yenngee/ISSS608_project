@@ -1,0 +1,66 @@
+---
+title: "Project Proposal"
+author: "Joanna Lian & Ng Yen Ngee "
+date: 2020-12-01T21:13:14-05:00
+image: "images/blog/post-1.jpg"
+categories: ["R"]
+tags: ["Project Proposal"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+#### This is our project proposal
+
+This page provides the starting point of our project and how we plan out our project. 
+
+## Introduction
+The goal of the annual Institute of Electrical and Electronics Engineers (IEEE) Visual Analytics Science and Technology (VAST) Challenge is to advance the field of visual analytics through competition. The 2021 IEEE VAST Challenge brings back a classic challenge from 2014 to see how approaches and techniques have developed since the original release of the challenge.
+The background of the challenge is as below:
+
+In the roughly twenty years that Tethys-based GAStech has been operating a natural gas production site in the island country of Kronos, it has produced remarkable profits and developed strong relationships with the government of Kronos. However, GAStech has not been as successful in demonstrating environmental stewardship.
+
+In January, 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem.
+
+## Objective
+We found suspicious activities within GAStech itself worth investigating, thus, this project aims to create an data analytics applications to visualize these suspicious activities and relationships for you to judge, who exactly are the suspicious people in GASTech.
+
+This project aims to understand better the individuals and organizations that are involved in this situation. We do this by exploring the following:
+
+* Doing exploration data analysis and inferential data analysis on 
+  + Credit card expenditure data 
+  + Email headers data
+  + Employee categories 
+
+We will do so by delivering an R-Shiny app that achieve the following through an interactive user interface design: 
+
+* Identifying any anomalous or suspicious behavior.
+* Identifying formal (work-related) or informal (non-work related) relationships.
+  + Discover any associations based on common interest given in the data.
+  + Discover relationships between CC expenditure [MC2] and email headers + employee records [MC1]
+* Decide who are the suspicious GASTech employees 
+* Obtaining a holistic profile on these suspicious employees
+
+## Datasets
+We’ll be using data sets from Mini-Challenge 1 [MC1] and Mini-Challenge 2 [MC2].
+
+From [MC1], we will be using the email headers and employee records data.
+From [MC2], we will be extracting insights based on credit card transactions data.
+
+We will also be joining the two data sets based on individuals to analyzing attributes by features across data sets.
+
+## Scope and Methodology 
+
+Our scope and methodology is as below:
+
+1. Data preparation using dplyr and other r packages
+2. Analysis of VAST 21 data set with background research using some of the following methods:
+  + Exploratory Data Analysis (EDA) methods in R
+  + Network Analysis in R
+3. Creating a R shiny dashboard showing our findings/insights and conclusions:
+  + R Markdown development for functionality checks
+  + R-Shiny app development for user interactivity
+
+## Storyboard
+
