@@ -7,7 +7,7 @@
 {{ end }}
 
 <!-- multilingual SEO optimizations -->
-{{ if .IsTranslated }}
+<!--{{ if .IsTranslated }}
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{.Lang}}" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
@@ -15,7 +15,7 @@
 {{ end }}
 {{ with site.Params.author }}
 <meta name="author" content="{{ . }}">{{ end }}
-{{ hugo.Generator }}
+{{ hugo.Generator }}-->
 
 <!--Favicon-->
 <link rel="shortcut icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
