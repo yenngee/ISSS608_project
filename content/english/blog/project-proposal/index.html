@@ -68,6 +68,111 @@ From [MC2], we will be extracting insights based on credit card transactions dat
 </div>
 <div id="storyboard" class="section level1">
 <h1>Storyboard</h1>
-<pre class="r"><code>knitr::include_graphics(&quot;img/1_layout.png&quot;)</code></pre>
-<p><img src="img/1_layout.png" width="768" /></p>
+<div id="layout" class="section level3">
+<h3>Layout</h3>
+<p>We start off with the main layout of our app:
+<img src="../../images/blog/project_proposal/1_layout.png" /></p>
+<p>This will consist of two pain parts:</p>
+<ol style="list-style-type: decimal">
+<li>the top navigation bar that will help the user to navigate to the various modules that will be present in the blue area.</li>
+<li>an input bar where user can decide for themselves who in GASTech is suspicious.</li>
+</ol>
+<p>The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user’s decision of their most suspected employees.</p>
+<p>Subsequently, the modules below will fill in the blue coloured area in the layout above:
+### Module 1: What do they spend on?</p>
+<p><img src="../../images/blog/project_proposal/2a_cc.png" /></p>
+<p>This would be the EDA portion. On the side panel, we would include options for interactions. Then on the main panel, we will have histogram and data table.</p>
+<p><strong>Filters</strong></p>
+<ul>
+<li>Employee Category - there will be a drop down for each possible employee category. We may or may not include all of the employee categories stated below, and we may add more than what is stated below as we work on our data.
+<ul>
+<li>Department (drop down: Security, Executive, Administration … )</li>
+<li>Gender (drop down: Female, Male)</li>
+<li>Employment Year (numeric slider)</li>
+<li>…</li>
+</ul></li>
+<li>Expenditure Category
+<ul>
+<li>Expenditure type (drop down: food, retail, etc )</li>
+<li>company vs non-company expenditure</li>
+</ul></li>
+<li>Time Category
+<ul>
+<li>Weekend vs Weekday</li>
+</ul></li>
+</ul>
+<p><strong>Viz Settings</strong></p>
+<ul>
+<li>nr of bins</li>
+<li>selection of columns for data table</li>
+</ul>
+<p><strong>Viz Interaction features</strong></p>
+<ul>
+<li>if we select a histogram bar, the Data Table will be automatically filtered</li>
+<li>tooltip appears when we hover around histogram</li>
+</ul>
+</div>
+<div id="module-2-what-do-they-spend-on" class="section level3">
+<h3>Module 2: What do they spend on?</h3>
+<p><img src="../../images/blog/project_proposal/2b_cc.png" />
+This would be the inferential portion.</p>
+<p>3 sub tabs for the 3 types of filters defined in Module 1:</p>
+<ul>
+<li>Employee Category</li>
+<li>Expenditure Category</li>
+<li>Time Category</li>
+</ul>
+<p>The x axis will reflect the selection in each of the category.</p>
+<p>ANOVA inferential statistics will be done.</p>
+</div>
+<div id="module-3" class="section level3">
+<h3>Module 3:</h3>
+<p><img src="../../images/blog/project_proposal/3_email.png" />
+On the side panel, we would include options for interactions. Then on the main panel, we will have the network graph.</p>
+<p><strong>Filters</strong></p>
+<ul>
+<li>Employee Category - similar to that in Module 1</li>
+<li>Email Category (work related vs non-work related)</li>
+</ul>
+<p><strong>Viz Settings</strong></p>
+<ul>
+<li>Network Metric
+<ul>
+<li>In-degree &amp; Out-degree (directed emails) [will do]</li>
+<li>Betweenness centrality [will do]</li>
+<li>Closeness Centrality [if got time]</li>
+<li>Eigenvector Centrality [if got time]</li>
+<li>Clustering Coefficient [if got time]</li>
+</ul></li>
+<li>Layout (igraph)
+<ul>
+<li>sphere</li>
+<li>circle</li>
+<li>random</li>
+<li>fr</li>
+</ul></li>
+</ul>
+<p><strong>Viz Interaction features</strong></p>
+<ul>
+<li>if we select a single node, the nearby connections will be highlighted</li>
+<li>tooltip appears when we hover around the nodes</li>
+</ul>
+</div>
+<div id="module-4" class="section level3">
+<h3>Module 4:</h3>
+<p><img src="../../images/blog/project_proposal/4_parallel.png" /></p>
+<p>On the side panel, we would include options for interactions. Then on the main panel, we will have the parallel set graph.</p>
+<p><strong>input</strong></p>
+<p>The suspicious vs non-suspicious categorization would be done by the user at the bottom of the app. Which will then be feed into this parallel plot to see the profile suspicious vs non-suspicious employees.</p>
+<p><strong>Viz Settings</strong></p>
+<ul>
+<li>Selection of levels (depends on our graph maybe up to 5/6?)</li>
+<li>selection for each level will be the employee category defined in module 1</li>
+</ul>
+<p><strong>Viz Interaction features</strong></p>
+<ul>
+<li>if we select a single path way, it will be highlighted</li>
+<li>tooltip also appears showing all the names?</li>
+</ul>
+</div>
 </div>

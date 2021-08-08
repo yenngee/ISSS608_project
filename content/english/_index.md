@@ -52,12 +52,10 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: 'https://suspicious-gastech.netlify.app/blog/project-proposal/'
     content: Here is our project proposal
     images:
-    - images/service-1.png
-    - images/service-2.png
-    - images/service-3.png
+    - images/blog/project_proposal.png
     title: Project Proposal
     
   - button:

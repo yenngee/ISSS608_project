@@ -62,7 +62,110 @@ Our scope and methodology is as below:
   + R-Shiny app development for user interactivity
 
 # Storyboard
+### Layout 
+We start off with the main layout of our app:
+![](../../images/blog/project_proposal/1_layout.png)
 
-```{r}
-knitr::include_graphics("img/1_layout.png")
-```
+This will consist of two pain parts: 
+
+1. the top navigation bar that will help the user to navigate to the various modules that will be present in the blue area. 
+2. an input bar where user can decide for themselves who in GASTech is suspicious. 
+
+The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user's decision of their most suspected employees. 
+
+Subsequently, the modules below will fill in the blue coloured area in the layout above: 
+### Module 1: What do they spend on? 
+
+![](../../images/blog/project_proposal/2a_cc.png)
+
+This would be the EDA portion. On the side panel, we would include options for interactions. Then on the main panel, we will have histogram and data table. 
+
+**Filters**
+
+* Employee Category - there will be a drop down for each possible employee category. We may or may not include all of the employee categories stated below, and we may add more than what is stated below as we work on our data. 
+  + Department (drop down: Security, Executive, Administration ... )
+  + Gender (drop down: Female, Male)
+  + Employment Year (numeric slider)
+  + ...
+* Expenditure Category 
+  + Expenditure type (drop down: food, retail, etc )
+  + company vs non-company expenditure 
+* Time Category
+  + Weekend vs Weekday 
+
+**Viz Settings**
+
+* nr of bins
+* selection of columns for data table
+
+**Viz Interaction features**
+
+* if we select a histogram bar, the Data Table will be automatically filtered 
+* tooltip appears when we hover around histogram 
+
+### Module 2: What do they spend on?
+
+![](../../images/blog/project_proposal/2b_cc.png)
+This would be the inferential portion. 
+
+3 sub tabs for the 3 types of filters defined in Module 1: 
+
+* Employee Category 
+* Expenditure Category
+* Time Category
+
+The x axis will reflect the selection in each of the category. 
+
+ANOVA inferential statistics will be done. 
+
+### Module 3: 
+
+![](../../images/blog/project_proposal/3_email.png)
+On the side panel, we would include options for interactions. Then on the main panel, we will have the network graph. 
+
+**Filters**
+
+* Employee Category - similar to that in Module 1
+* Email Category (work related vs non-work related)
+
+**Viz Settings**
+
+* Network Metric
+  + In-degree & Out-degree (directed emails) [will do] 
+  + Betweenness centrality  [will do] 
+  + Closeness Centrality [if got time]
+  + Eigenvector Centrality  [if got time]
+  + Clustering Coefficient [if got time]
+* Layout (igraph) 
+  + sphere
+  + circle
+  + random
+  + fr
+
+
+**Viz Interaction features**
+
+* if we select a single node, the nearby connections will be highlighted 
+* tooltip appears when we hover around the nodes
+
+
+
+### Module 4: 
+
+![](../../images/blog/project_proposal/4_parallel.png)
+
+On the side panel, we would include options for interactions. Then on the main panel, we will have the parallel set graph. 
+
+**input**
+
+The suspicious vs non-suspicious categorization would be done by the user at the bottom of the app. Which will then be feed into this parallel plot to see the profile suspicious vs non-suspicious employees. 
+
+**Viz Settings**
+
+* Selection of levels (depends on our graph maybe up to 5/6?)
+* selection for each level will be the employee category defined in module 1 
+
+**Viz Interaction features**
+
+* if we select a single path way, it will be highlighted 
+* tooltip also appears showing all the names?
