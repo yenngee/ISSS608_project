@@ -52,7 +52,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: 'https://suspicious-gastech.netlify.app/blog/project-proposal/'
+      link: 'https://whoissuspicious.netlify.app/blog/project-proposal/'
     content: Here is our project proposal
     images:
     - images/blog/project_proposal.png
@@ -71,7 +71,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: 'https://whoissuspicious.netlify.app/blog/poster/'
     content: Here is our poster
     images:
     - images/blog/poster.jpg
@@ -80,7 +80,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: 'ResearchPaper.pdf'
+      link: 'https://whoissuspicious.netlify.app/blog/research-paper/'
     content: Here is our research paper 
     images:
     - images/blog/research_paper.jpg
