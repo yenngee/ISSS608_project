@@ -8,4 +8,4 @@ categories: []
 tags: []
 ---
 
-Click [here](ResearchPaper.pdf)
+Click [here](ResearchPaper.pdf) for the research paper
