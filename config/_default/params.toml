@@ -15,7 +15,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation buttons
 [navigation_button]
-enable = true
+enable = false
 label = "Get Started"
 link = "contact"
 
@@ -28,21 +28,21 @@ button = "I Accept"
   
 ############################# social site ########################
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "github - this site"
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/yenngee/ISSS608_project"
 
 [[social]]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "github - shiny app"
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/joannalianyz/ISSS608_Shiny"
 
-[[social]]
-title = "skype"
-icon = "fab fa-skype" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[social]]
+#title = "skype"
+#icon = "fab fa-skype" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[social]]
+#title = "linkedin"
+#icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
+#link = "#"

@@ -1,7 +1,7 @@
 ---
 title: "Project Proposal"
 author: "Joanna Lian & Ng Yen Ngee "
-date: 2020-12-01T21:13:14-05:00
+date: 2021-08-08T21:13:14-21:47
 image: "images/blog/project_proposal.png"
 categories: ["R"]
 tags: ["Project Proposal"]

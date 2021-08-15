@@ -3,7 +3,7 @@ banner:
   button:
     enable: true
     label: Explore Data Visualization
-    link: contact
+    link: "https://whoissuspicious.shinyapps.io/who_is_suspicious/"
   content: Piecing evidences from two parts of the [Vast Challenge 2021](https://vast-challenge.github.io/2021/)            to form a cohesive picture as to who in GASTech are the suspicious ones. 
   image: images/banner-art.svg
   title: Who are the suspicious employees in GASTech? <br> You be the judge!
@@ -14,7 +14,7 @@ call_to_action:
     label: Blogpost - step by step process
     link: blog
   content: Here is our step by step process
-  enable: true
+  enable: false
   image: images/cta.svg
   title: Ready to get started?
   
@@ -72,7 +72,7 @@ service:
       enable: true
       label: Check it out
       link: '#'
-    content: Here is out poster
+    content: Here is our poster
     images:
     - images/blog/poster.jpg
     title: Poster 
