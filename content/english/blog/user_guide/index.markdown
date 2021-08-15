@@ -45,10 +45,10 @@ We first start off with some Exploratory Data Analysis where we visualize the da
 	+ To choose the expenditure type of each transaction. We have defined each of the spendings as a specific category (see selection options below) 
 	+ Can select more than one category as a filter 
 	+ Selection options are: Company, Food, Gas, Leisure, Retail 
-+ **Category of spending**
++ **Weekday/Weekend**
 	+ To choose whether the transaction is done during Weekday or Weekend. 
 	+ Can select only select one. 
-	+ Selection options are: Weekday/Weekend
+	+ Selection options are: Weekday, Weekend
 + **No. of Years in Employment**
   + Slider to choose the range of Years in Employment of the GASTech Employees. 
   + This function will keep the transactions of Employees with selected range of No. of Years in Employment.
@@ -61,19 +61,56 @@ We first start off with some Exploratory Data Analysis where we visualize the da
 + **Show data table**
   + If selected, the data table containing the credit card transaction will appear. 
   + If not selected, the data table containing the credit card transaction will not appear. 
+  
+With the different filtering options, you can analyze the distribution and see if there are any odd transactions that stick out based on the filters. Each column of the data table also have a sort function that you can also interact with and find the odd transaction. 
 	
 #### Inferential 
 
+The exploratory data analysis can be further supported by inferential statistics.
+
 ![](../../images/blog/user_guide/cc_inferential.JPG)
+
+In this tab, we can select the different Categories. The application will run ANOVA, which is a statistical analysis that compares if the mean of the expenditures of each type within the category selected are the same or not. 
+
+Options for Category to compare: 
++ Department 
++ Food Category 
++ Day of Week
++ Citizenship
++ Gender
++ Age - (binned)
++ Years in Employment - (binned)
++ Years after Military Discharge - (binned)
 
 
 ### Analyzing Email Data 
 
-
+In this section, we will be analyzing the email correspondence of the GASTech employees which is in a form of email subject headers. 
 
 #### Network Viz 
 
+We visualize this data in the form of a network visualization to see the connections between each GASTech Employee. 
+
 ![](../../images/blog/user_guide/email_network_viz.JPG)
+
+Below are the options to filter the credit card transaction data: 
+
++ **Department**
+	+ To choose the employment type of the GASTech Employees
+	+ Can select more than one department as a filter.
+	+ Selection options are: Administration, Engineering, Executive, Facilities, Information and Security
++ **Email Type**
+	+ To select the type of email defined by us. 
+	+ Can only select one. 
+	+ Customizable through using the `Load Email Headers` tab. 
+	+ Selection options are: Work, Non-Work
++ **Weight**
+  + Slider to choose the range of weight which is the number of email correspondence grouped according to the Email Type. . 
+  + This function will keep the connections if the number of email correspondence is more than the selected number.
++ **Network Graph Layout**
+	+ Different layout give different persepctive and insight. This is to choose the layout of the network visualization. 
+	+ Can select only select one. 
+	+ Selection options are: Fruchterman Reingold, Nicely, Sugiyama, Circle 
 
 #### Upload your categorization of Email Type
 
@@ -109,7 +146,17 @@ This will also be reflected in the `Network viz` tab.
 
 ### Profile 
 
-![](../../images/blog/user_guide/.jpg)
+In this section, we will be profilling the GASTech employees through visualization using Parallel Set. 
+
+![](../../images/blog/user_guide/parset.JPG)
+
+For each dimension , a horizontal bar is shown for each of its possible categories. The width of the bar denotes the absolute number of matches for that category.
+
+Starting with the first dimension (Is_supicious), each of its categories is connected to a number of categories in the next dimension, showing how that category is subdivided. This subdividing is repeated recursively, producing a tree of “ribbons”.
+
+Drag the dimensions and categories to reorder them. You can also click the “alpha” or “size” links that appear next to the dimension name on mouseover, to order the categories by name or frequency.
+
+We can select the different dimensions on the left. 
 
 
-## Go Forth and Have Fun! 
+## With this, Go Forth and Have Fun! 
