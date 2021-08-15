@@ -1,0 +1,11 @@
+---
+title: Research Paper
+author: ''
+date: 2020-8-18T21:17:56-18:00
+image: "images/blog/research_paper.jpg"
+slug: []
+categories: []
+tags: []
+---
+
+Click [here](ResearchPaper.pdf)
