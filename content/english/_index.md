@@ -61,7 +61,7 @@ service:
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: 'https://whoissuspicious.shinyapps.io/who_is_suspicious/'
     content: Here is our shiny app.
     images:
     - images/service-1.png
@@ -74,16 +74,16 @@ service:
       link: '#'
     content: Here is out poster
     images:
-    - images/service-2.png
+    - images/blog/poster.jpg
     title: Poster 
     
   - button:
       enable: true
       label: Check it out
-      link: '#'
+      link: 'ResearchPaper.pdf'
     content: Here is our research paper 
     images:
-    - images/service-3.png
+    - images/blog/research_paper.jpg
     title: Research Paper
   
 ---
